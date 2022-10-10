@@ -21,7 +21,7 @@ Como instalar esse projeto:
 - Faça um clone deste repositório;
 - Na pasta raiz do projeto, rode o comando `python -m venv venv` (linux) no terminal para criar um ambiente virtual;
 - Na pasta raiz do projeto, rode o comando `source venv/bin/activate` (linux) para acessar o ambiente virtual;
-- Na pasta raiz do projeto, rode o comando `pip install -r requirements` para installar as dependências;
+- Na pasta raiz do projeto, rode o comando `pip install -r requirements.txt` para installar as dependências;
 - Finalmente rode o comando `python manage.py runserver`
 - No seu navegador, abra o link indicado no terminal.
 
