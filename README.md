@@ -9,8 +9,8 @@ Desafio Backend, um web app que permite o upload de um arquivo CNAB com os dados
 
 💭 Features principais:
 \
-:heavy_check_mark: Busca de transações\
-:heavy_check_mark: Checa se o arquivo é do formato txt
+:heavy_check_mark: Busca de transações;\
+:heavy_check_mark: Checa se o arquivo selecionado para upload é do formato txt.
 
 
 ## 📋 Instruções
