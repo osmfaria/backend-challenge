@@ -23,7 +23,7 @@ Como instalar esse projeto:
 - Na pasta raiz do projeto, rode o comando `source venv/bin/activate` (linux) para acessar o ambiente virtual;
 - Na pasta raiz do projeto, rode o comando `pip install -r requirements.txt` para installar as dependências;
 - Na pasta raiz do projeto, rode o comando `python manage.py migrate`;
-- Crie um arquivo .env na raiz do projeto e siga o exemplo do .env.example;
+- Crie um arquivo `.env` na raiz do projeto e siga o exemplo do `.env.example` que também pode ser encontrado na raiz do projeto;
 - Finalmente rode o comando `python manage.py runserver`
 - No seu navegador, abra o link indicado no terminal.
 
