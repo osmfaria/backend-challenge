@@ -9,8 +9,8 @@ Desafio Backend, um web app que permite o upload de um arquivo CNAB com os dados
 
 💭 Features principais:
 \
-:heavy_check_mark: Gráfico com diferenças liquidas em relação a data inicial\
-:heavy_check_mark: Lista de dias customizada para consulta
+:heavy_check_mark: Busca de transações\
+:heavy_check_mark: Checa se o arquivo é do formato txt
 
 
 ## 📋 Instruções
@@ -18,8 +18,10 @@ Desafio Backend, um web app que permite o upload de um arquivo CNAB com os dados
 Como instalar esse projeto:
 
 - Faça um clone deste repositório;
-- Na pasta raiz do projeto, rode o comando `yarn` no terminal para instalar os pacotes de dependencias;
-- Na pasta raiz do projeto, rode o comando `yarn start` no terminal para rodar o projeto;
+- Na pasta raiz do projeto, rode o comando `python -m venv venv` (linux) no terminal para criar um ambiente virtual;
+- Na pasta raiz do projeto, rode o comando `source venv/bin/activate` (linux) para acessar o ambiente virtual;
+- Na pasta raiz do projeto, rode o comando `pip install -r requirements` para installar as dependências;
+- Finalmente rode o comando `python manage.py runserver`
 - No seu navegador, abra o link indicado no terminal.
 
 
