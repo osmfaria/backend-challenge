@@ -1,4 +1,4 @@
-[![GitHub package.json version](https://img.shields.io/github/package-json/v/osmfaria/frontend-challenge)](https://img.shields.io/github/package-json/v/osmfaria/frontend-challenge)
+(https://img.shields.io/badge/Version-1.0-green)
  
 # :page_with_curl: Backend Challenge
 
