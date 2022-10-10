@@ -36,30 +36,9 @@ Algumas das principais tecnologias utilizadas:
   
 
 
-## :checkered_flag: Testes
+## :scroll: Diagram
 
-Rodando testes de componentes:
-
-- `yarn run cypress run --component`
-
-Rodando testes e2e:
-
-- `yarn start` para que a aplicação esteja rodando no localhost;
-- Abrir outro terminal;
-- `yarn run cypress run`
-
-Explorando testes:
-  
- > Componentes:
-
-  - Para os testes dos componentes, foram testados os que são reutilizados como Inputs, Button e Header.
-  
- > e2e:
-
-  - Funcionalidade basica de preencher os inputs e submit para obter resultados;
-  - Mock do retorno da api para teste da rederização do card de resultados;
-  - Teste de retorno da seção de resultados para o card inicial com o form;
-  - Teste para verificação se inputs inválidos são acusado pela validação do form.
+<img src="./assets/diagram.png" />
 
 
 ## 🔗 Uteis
