@@ -40,7 +40,3 @@ Algumas das principais tecnologias utilizadas:
 
 <img src="./assets/diagram.png" />
 
-
-## 🔗 Uteis
-
-> [API](https://frontend-challenge-7bu3nxh76a-uc.a.run.app)
