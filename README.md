@@ -36,7 +36,7 @@ Algumas das principais tecnologias utilizadas:
   
 
 
-## :scroll: Diagram
+## :scroll: Diagrama de relacionamente de entidades
 
 <img src="./assets/diagram.png" />
 
