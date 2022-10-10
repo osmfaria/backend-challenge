@@ -1,4 +1,4 @@
-(https://img.shields.io/badge/Version-1.0-green)
+[https://img.shields.io/badge/Version-1.0-green]
  
 # :page_with_curl: Backend Challenge
 
