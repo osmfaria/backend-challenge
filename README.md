@@ -6,8 +6,6 @@ Desafio Backend, um web app que permite o upload de um arquivo CNAB com os dados
 
 <img src="./src/assets/app-design.png" />
 
-> Aplicação rodando no [Vercel](https://simule-bay.vercel.app/)
-
 
 💭 Features principais:
 \
