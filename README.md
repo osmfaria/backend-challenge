@@ -2,7 +2,7 @@
  
 # :page_with_curl: Backend Challenge
 
-Desafio Backend, um web app que permite o upload de um arquivo CNAB com os dados das movimentações financeiras de várias lojas. Estes dados são armazenados em um banco de dados relacional, e disponibilizado para consulta
+Desafio Backend, um web app que permite o upload de um arquivo CNAB com os dados das movimentações financeiras de várias lojas. Estes dados são armazenados em um banco de dados relacional, e disponibilizados para consulta.
 
 <img src="./assets/layout.png" />
 
