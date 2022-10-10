@@ -2,14 +2,14 @@
  
 # :page_with_curl: Backend Challenge
 
-Desafio Frontend, um web app para cálculo de antecipação de uma transação. Possibilita com que o usuário manipule dados de entrada para tomada de decisão baseado nos resultados providos.
+Desafio Backend, um web app que permite o upload de um arquivo CNAB com os dados das movimentações financeiras de várias lojas. Estes dados são armazenados em um banco de dados relacional, e disponíveis para consulta.
 
 <img src="./src/assets/app-design.png" />
 
 > Aplicação rodando no [Vercel](https://simule-bay.vercel.app/)
 
 
-💭 Features principais:\
+💭 Features principais:
 \
 :heavy_check_mark: Gráfico com diferenças liquidas em relação a data inicial\
 :heavy_check_mark: Lista de dias customizada para consulta
