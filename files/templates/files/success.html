@@ -1,0 +1,12 @@
+{% extends 'files/base.html' %}
+
+{% block content %}
+    <h3>Faça o uplpado do arquivo</h3>
+    <hr class="my-3">
+    <p class="text-success mb-4">Upload realizado com sucesso</p>
+    <button type="submit"  class="btn btn-outline-secondary" disabled>Enviar</button>
+    <a href="{% url 'home' %}" class="btn btn-primary ms-lg-2">Voltar</a>
+
+    </form>
+    
+{% endblock %}

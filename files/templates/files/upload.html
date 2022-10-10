@@ -1,0 +1,16 @@
+{% extends 'files/base.html' %}
+
+{% block content %}
+    <h3>Faça o uplpado do arquivo</h3>
+    <hr class="my-3">
+    <form method="POST" enctype="multipart/form-data">
+    {% csrf_token %} 
+    {{ form }}
+    <br/>
+    <br/>
+    <button type="submit"  class="btn btn-outline-primary">Enviar</button>
+    <a href="{% url 'home' %}" class="btn btn-primary ms-lg-2">Cancelar</a>
+
+    </form>
+    
+{% endblock %}

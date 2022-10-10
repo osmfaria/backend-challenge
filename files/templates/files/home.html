@@ -1,0 +1,18 @@
+{% extends 'files/base.html' %}
+
+{% block content %}
+
+<div class="container text-center align-middle" style="min-height: 400px;">
+    <div class="row pt-5" style="min-height: 400px;">
+        <div class="col pt-5 border-end border-2 text-start text">
+            <h2><span class="text-primary">Bem-vindo</span><br/>Portal para leitura de dados <br/>de arquivos CNAB.</h2>
+        </div>
+        <div class="col pt-5 text-end text-secondary">
+          <h4>Faça o upload do arquivo <br/> e procure pelos negócios</h4>
+          <a href="{% url 'upload' %}" class="btn btn-primary ms-lg-2">Comece qui</a>
+        </div>
+    </div>
+
+</div>
+
+{% endblock %}

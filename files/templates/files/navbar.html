@@ -1,0 +1,27 @@
+{% load bootstrap_icons %}
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-lg">
+    <a class="navbar-brand me-5 text-secondary" href="{% url 'home' %}">
+      {% load static %}
+      <img src="{% static 'logo.svg' %}" alt="logo" width="40"/>
+      CNAB Parser
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon">{% bs_icon 'list' size='2rem' %}</span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="btn btn-outline-secondary" href="{% url 'upload' %}">Upload</a>
+        </li>
+        </li>
+      </ul>
+      <form class="d-flex" method="POST" action="{% url 'search-stores' %}">
+        {% csrf_token %}
+        <input class="form-control me-2" type="search" placeholder="nome do negócio" aria-label="Search" name="searched-business">
+        <button class="btn btn-outline-secondary" type="submit">Buscar</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
